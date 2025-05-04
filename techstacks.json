@@ -1,0 +1,274 @@
+{
+  "frontend": [
+    {
+      "name": "React",
+      "language": "JavaScript",
+      "framework": "React",
+      "build_tools": [
+        "Vite",
+        "Webpack",
+        "Parcel"
+      ],
+      "css_frameworks": [
+        "TailwindCSS",
+        "Bootstrap",
+        "Material UI"
+      ],
+      "routing": [
+        "React Router"
+      ],
+      "compatible_backends": [
+        "Node.js (Express)",
+        "Firebase",
+        "Laravel",
+        "Spring Boot",
+        ".NET Core"
+      ],
+      "description": "Popular JavaScript library for building user interfaces."
+    },
+    {
+      "name": "Angular",
+      "language": "TypeScript",
+      "framework": "Angular",
+      "build_tools": [
+        "Angular CLI"
+      ],
+      "css_frameworks": [
+        "Angular Material",
+        "Bootstrap"
+      ],
+      "routing": [
+        "Angular Router"
+      ],
+      "compatible_backends": [
+        "Node.js (Express)",
+        ".NET Core",
+        "Java (Spring Boot)"
+      ],
+      "description": "Platform for building mobile and desktop web applications."
+    },
+    {
+      "name": "Flutter Web",
+      "language": "Dart",
+      "framework": "Flutter",
+      "build_tools": [
+        "Flutter CLI"
+      ],
+      "css_frameworks": [],
+      "routing": [
+        "Navigator 2.0"
+      ],
+      "compatible_backends": [
+        "Firebase",
+        ".NET Core",
+        "Node.js"
+      ],
+      "description": "UI toolkit for crafting natively compiled applications."
+    }
+  ],
+  "backend": [
+    {
+      "name": "Node.js (Express)",
+      "language": "JavaScript",
+      "framework": "Express",
+      "database_support": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "SQLite"
+      ],
+      "auth_methods": [
+        "JWT",
+        "OAuth2",
+        "Session"
+      ],
+      "api_styles": [
+        "REST",
+        "GraphQL"
+      ],
+      "deployment": [
+        "Heroku",
+        "Vercel",
+        "Render",
+        "Docker",
+        "AWS"
+      ],
+      "description": "Minimal and flexible Node.js web application framework."
+    },
+    {
+      "name": "Laravel",
+      "language": "PHP",
+      "framework": "Laravel",
+      "database_support": [
+        "MySQL",
+        "PostgreSQL",
+        "SQLite",
+        "SQL Server"
+      ],
+      "auth_methods": [
+        "Session",
+        "JWT",
+        "Sanctum",
+        "Passport"
+      ],
+      "api_styles": [
+        "REST"
+      ],
+      "deployment": [
+        "Shared Hosting",
+        "Docker",
+        "AWS",
+        "Vapor"
+      ],
+      "description": "PHP framework for web artisans with elegant syntax."
+    },
+    {
+      "name": ".NET Core",
+      "language": "C#",
+      "framework": ".NET Core",
+      "database_support": [
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL",
+        "SQLite"
+      ],
+      "auth_methods": [
+        "JWT",
+        "OAuth",
+        "Windows Auth"
+      ],
+      "api_styles": [
+        "REST",
+        "gRPC"
+      ],
+      "deployment": [
+        "Azure",
+        "Docker",
+        "IIS",
+        "AWS"
+      ],
+      "description": "Cross-platform .NET framework for building applications."
+    }
+  ],
+  "database": [
+    {
+      "name": "MySQL",
+      "type": "Relational",
+      "cloud_services": [
+        "AWS RDS",
+        "Azure MySQL",
+        "Google Cloud SQL"
+      ],
+      "compatible_backends": [
+        "Laravel",
+        "Node.js",
+        ".NET Core",
+        "Django"
+      ],
+      "description": "Open-source relational database system."
+    },
+    {
+      "name": "MongoDB",
+      "type": "NoSQL",
+      "cloud_services": [
+        "MongoDB Atlas",
+        "AWS DocumentDB"
+      ],
+      "compatible_backends": [
+        "Node.js",
+        "Django",
+        "Express"
+      ],
+      "description": "Document-oriented NoSQL database."
+    },
+    {
+      "name": "Firebase Firestore",
+      "type": "NoSQL",
+      "cloud_services": [
+        "Firebase"
+      ],
+      "compatible_backends": [
+        "Firebase Functions",
+        "Flutter",
+        "React"
+      ],
+      "description": "Cloud-hosted NoSQL database from Google."
+    }
+  ],
+  "hosting": [
+    {
+      "name": "Vercel",
+      "frontend_support": [
+        "Next.js",
+        "React"
+      ],
+      "backend_support": [
+        "Node.js",
+        "Serverless"
+      ],
+      "ci_cd": [
+        "GitHub",
+        "GitLab"
+      ],
+      "description": "Frontend hosting with serverless function support."
+    },
+    {
+      "name": "Firebase Hosting",
+      "frontend_support": [
+        "React",
+        "Angular",
+        "Vanilla JS"
+      ],
+      "backend_support": [
+        "Firebase Functions"
+      ],
+      "ci_cd": [
+        "GitHub Actions"
+      ],
+      "description": "Static and dynamic hosting for web apps with global CDN."
+    },
+    {
+      "name": "Docker",
+      "frontend_support": [
+        "Any"
+      ],
+      "backend_support": [
+        "Any"
+      ],
+      "ci_cd": [
+        "GitHub Actions",
+        "GitLab CI",
+        "Jenkins"
+      ],
+      "description": "Container platform to build, ship, and run applications anywhere."
+    },
+    {
+      "name": "Spring Boot",
+      "language": "Java",
+      "framework": "Spring Boot",
+      "database_support": ["MySQL", "PostgreSQL", "Oracle", "MongoDB"],
+      "auth_methods": ["JWT", "Spring Security"],
+      "api_styles": ["REST", "GraphQL"],
+      "deployment": ["Docker", "AWS", "Heroku"],
+      "description": "Java-based framework for microservices and APIs."
+    },
+    {
+      "name": "Android (Kotlin)",
+      "language": "Kotlin",
+      "framework": "Jetpack Compose",
+      "backend_support": ["Firebase", "Spring Boot", ".NET", "Node.js"],
+      "auth_methods": ["Firebase Auth", "OAuth2"],
+      "build_tools": ["Gradle"],
+      "description": "Official Android language with modern UI toolkit support."
+    },
+    {
+      "name": "iOS (Swift)",
+      "language": "Swift",
+      "framework": "SwiftUI",
+      "backend_support": ["Firebase", "Node.js", "Spring Boot"],
+      "auth_methods": ["Sign in with Apple", "OAuth2"],
+      "build_tools": ["Xcode"],
+      "description": "Apple’s native language and UI framework for iOS apps."
+    }
+  ]
+}
