@@ -269,6 +269,22 @@
       "auth_methods": ["Sign in with Apple", "OAuth2"],
       "build_tools": ["Xcode"],
       "description": "Apple’s native language and UI framework for iOS apps."
-    }
+    },
+    {
+      "name": "Flutter",
+      "language": "Dart",
+      "framework": "Flutter",
+      "platforms": ["iOS", "Android", "Web", "Desktop"],
+      "build_tools": ["Flutter CLI"],
+      "state_management": ["Provider", "Bloc", "Riverpod", "GetX"],
+      "compatible_backends": ["Firebase", "Node.js (Express)", "Spring Boot", ".NET Core", "Supabase"],
+      "description": "Flutter is Google's UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase. It offers fast development cycles, expressive UIs, and a rich set of widgets.",
+      "resources": {
+        "official_site": "https://flutter.dev",
+        "documentation": "https://docs.flutter.dev",
+        "state_management_guide": "https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro"
+  }
+}
+
   ]
 }
